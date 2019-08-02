@@ -30,7 +30,6 @@
 		48E580722204928300B37C64 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E580712204928300B37C64 /* UIColor+Extensions.swift */; };
 		48E580742205F5BD00B37C64 /* AudioRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E580732205F5BD00B37C64 /* AudioRecordingView.swift */; };
 		7DC3331C5D812E69EF169DF6 /* Pods_LambdaChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917F7D721EA416E96BE498EC /* Pods_LambdaChat.framework */; };
-		9541E6C757C862D984641BC9 /* Pods_ValetFixChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262A5FE85393FA117798FB7 /* Pods_ValetFixChat.framework */; };
 		FA1B38BA224C0F5100CEAFE8 /* ComposeMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1B38B9224C0F5100CEAFE8 /* ComposeMessage.swift */; };
 		FA9E903322F349BC006FAFDB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA9E903222F349BC006FAFDB /* GoogleService-Info.plist */; };
 		FA9E903522F34B7B006FAFDB /* Testing123.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9E903422F34B7B006FAFDB /* Testing123.swift */; };
@@ -72,12 +71,8 @@
 		48E5806F2203FF2F00B37C64 /* MessageMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageMedia.swift; sourceTree = "<group>"; };
 		48E580712204928300B37C64 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		48E580732205F5BD00B37C64 /* AudioRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecordingView.swift; sourceTree = "<group>"; };
-		69F31EE1704CE29129A8AD35 /* Pods-ValetFixChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValetFixChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ValetFixChat/Pods-ValetFixChat.debug.xcconfig"; sourceTree = "<group>"; };
-		8262A5FE85393FA117798FB7 /* Pods_ValetFixChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValetFixChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86A9F8EC17B074F5F68CF187 /* Pods_ValetFixChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValetFixChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87628292ED77A1140F25E9C9 /* Pods-LambdaChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LambdaChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-LambdaChat/Pods-LambdaChat.release.xcconfig"; sourceTree = "<group>"; };
 		917F7D721EA416E96BE498EC /* Pods_LambdaChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LambdaChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FCE5DE5EF9A57520D438AE9 /* Pods-ValetFixChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValetFixChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-ValetFixChat/Pods-ValetFixChat.release.xcconfig"; sourceTree = "<group>"; };
 		D9F12AE0C8D409C72CFC26D5 /* Pods-LambdaChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LambdaChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LambdaChat/Pods-LambdaChat.debug.xcconfig"; sourceTree = "<group>"; };
 		FA1B38B9224C0F5100CEAFE8 /* ComposeMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeMessage.swift; sourceTree = "<group>"; };
 		FA9E903222F349BC006FAFDB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -89,7 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9541E6C757C862D984641BC9 /* Pods_ValetFixChat.framework in Frameworks */,
 				7DC3331C5D812E69EF169DF6 /* Pods_LambdaChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,8 +101,6 @@
 		0B60DB736FD948D5F6F5A57B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8262A5FE85393FA117798FB7 /* Pods_ValetFixChat.framework */,
-				86A9F8EC17B074F5F68CF187 /* Pods_ValetFixChatTests.framework */,
 				917F7D721EA416E96BE498EC /* Pods_LambdaChat.framework */,
 			);
 			name = Frameworks;
@@ -117,8 +109,6 @@
 		4640B3710659AC8319929181 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				69F31EE1704CE29129A8AD35 /* Pods-ValetFixChat.debug.xcconfig */,
-				9FCE5DE5EF9A57520D438AE9 /* Pods-ValetFixChat.release.xcconfig */,
 				D9F12AE0C8D409C72CFC26D5 /* Pods-LambdaChat.debug.xcconfig */,
 				87628292ED77A1140F25E9C9 /* Pods-LambdaChat.release.xcconfig */,
 			);
